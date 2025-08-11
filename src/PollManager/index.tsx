@@ -22,7 +22,7 @@ const onVote=(id:number)=>{
  
 return (
  
-    <div className="layout-column align-items-center justify-content-start poll-manager" data-testid="poll-manager" style={{paddingBottom:"20px"}}>
+    <div className="layout-column align-items-center justify-content-start poll-manager" data-testid="poll-manager" style={{paddingBottom:"20px", background:"#b5b0b0"}}>
 
         <h2>{pollData.question}</h2>
         
